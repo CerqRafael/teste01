@@ -1,0 +1,10 @@
+const prompt = require('prompt-sync')();
+var nt2 = prompt("Digite a quantidade de notas de 2:");
+var nt5 = prompt("Digite a quantidade de notas de 5:");
+var nt10 = prompt("Digite a quantidade de notas de 10:");
+var nt20 = prompt("Digite a quantidade de notas de 20:");
+var nt50 = prompt("Digite a quantidade de notas de 50:");
+var nt100 = prompt("Digite a quantidade de notas de 100:");
+var nt200 = prompt("Digite a quantidade de notas de 200:");
+var resultado = (nt2*2 + nt5*5 + nt10*10 + nt20*20 + nt50*50 + nt100*100 + nt200*200);
+console.log(`O valor totao é igual a: ${resultado}`);
